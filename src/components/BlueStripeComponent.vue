@@ -8,7 +8,7 @@ export default {
                 { icon: "buy-comics-merchandise.png", name: 'merchandise', link: '#' },
                 { icon: "buy-comics-subscriptions.png", name: 'subscriptions', link: '#' },
                 { icon: "buy-comics-shop-locator.png", name: 'shop locator', link: '#' },
-                { icon: "buy-dc-power-visa.svg", name: 'power-visa', link: '#' },
+                { icon: "buy-dc-power-visa.png", name: 'power-visa', link: '#' },
             ]
 
         }
@@ -65,9 +65,8 @@ li {
     }
 
     img[alt="power-visa"] {
-        width: 25%;
+        width: 85%;
     }
-
 }
 </style>
         
