@@ -47,7 +47,8 @@ ul {
 }
 
 li {
-    padding: 50px 10px;
+    padding: 50px 2px;
+    margin-right: 30px;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
