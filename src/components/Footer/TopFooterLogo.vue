@@ -18,6 +18,6 @@ export default {
 .top-footer-logo {
     position: absolute;
     top: -45%;
-    left: 50%;
+    left: 60%;
 }
 </style>
