@@ -1,9 +1,11 @@
 <script>
 import BottomFooterButton from './BottomFooterButton.vue';
+import BottomFooterMenu from './BottomFooterMenu.vue';
 export default {
     name: 'BottomFooterComponent',
     components: {
-        BottomFooterButton
+        BottomFooterButton,
+        BottomFooterMenu
     }
 }
 </script>
@@ -12,6 +14,7 @@ export default {
     <div class="bottom-footer">
         <div class="bottom-footer-container">
             <BottomFooterButton />
+            <BottomFooterMenu />
         </div>
     </div>
 </template>
@@ -28,5 +31,7 @@ export default {
 .bottom-footer-container {
     max-width: 80rem;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 </style>
