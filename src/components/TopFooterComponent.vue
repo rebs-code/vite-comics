@@ -12,7 +12,6 @@ export default {
                         { name: 'Movies', link: '#' },
                         { name: 'TV', link: '#' },
                         { name: 'Games', link: '#' },
-                        { name: 'Collectibles', link: '#' },
                         { name: 'Videos', link: '#' },
                         { name: 'News', link: '#' },
 
@@ -141,9 +140,9 @@ export default {
 
 .top-footer {
     background-image: url('../img/footer-bg.jpg');
-    padding: 40px 0;
     color: white;
-    max-height: 23.15rem;
+    max-height: 23.4375rem;
+    padding: 2.5rem 0;
 
     a {
         text-decoration: none;
@@ -155,7 +154,6 @@ export default {
     max-width: 80rem;
     max-height: 270px;
     margin: 0 auto;
-    border: 1px solid white;
     display: flex;
     justify-content: space-between;
 }
@@ -170,24 +168,24 @@ div>ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 270px;
+    max-height: 16.8rem;
 
 }
 
 div>ul>li {
-    margin-bottom: 0px;
+    margin-bottom: 1rem;
 }
 
 div>ul>li>h3 {
-    font-size: 16px;
+    font-size: 1.1rem;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 1rem;
     text-transform: uppercase;
 }
 
 div>ul>li>ul>li {
-    padding-bottom: 5px;
-    font-size: 12px;
-    padding-right: 30px;
+    padding-bottom: 0.3rem;
+    font-size: 0.7rem;
+    padding-right: 1.8rem;
 }
 </style>

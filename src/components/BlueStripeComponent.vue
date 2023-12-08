@@ -36,7 +36,6 @@ export default {
 .blue-stripe {
     background-color: $brand-blue;
     color: white;
-    font-weight: bold;
     text-transform: uppercase;
 }
 
