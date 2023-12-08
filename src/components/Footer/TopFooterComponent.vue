@@ -16,7 +16,6 @@ export default {
         <div class="top-footer-container">
             <TopFooterMenuComponent />
             <TopFooterLogo />
-
         </div>
     </div>
 </template>
@@ -32,6 +31,7 @@ export default {
     color: white;
     height: 23.4375rem;
     padding-top: 2.5rem;
+    overflow: hidden;
 }
 
 .top-footer-container {
@@ -39,5 +39,6 @@ export default {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 </style>
