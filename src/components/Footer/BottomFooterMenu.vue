@@ -8,23 +8,23 @@ export default {
                     title: 'Follow Us',
                     links: [
                         {
-                            icon: 'fab fa-instagram',
+                            icon: 'footer-facebook.png',
                             url: '#'
                         },
                         {
-                            icon: 'fab fa-facebook',
+                            icon: 'footer-twitter.png',
                             url: '#'
                         },
                         {
-                            icon: 'fab fa-youtube',
+                            icon: 'footer-youtube.png',
                             url: '#'
                         },
                         {
-                            icon: 'fab fa-twitter',
+                            icon: 'footer-pinterest.png',
                             url: '#'
                         },
                         {
-                            icon: 'fab fa-linkedin',
+                            icon: 'footer-periscope.png',
                             url: '#'
                         }
                     ]
@@ -40,9 +40,9 @@ export default {
         <div class="bottom-footer-menu-item" v-for="item in menuItems">
             <h3>{{ item.title }}</h3>
             <ul>
-                <li v-for="link in item.links" :key="link.icon">
+                <li v-for="link in item.links">
                     <a :href="link.url">
-                        <i :class="link.icon"></i>
+                        <img :src="`/img/${link.icon}`" :alt="link.icon">
                     </a>
                 </li>
             </ul>
