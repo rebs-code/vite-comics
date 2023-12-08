@@ -27,6 +27,8 @@ export default {
 
 .top-footer {
     background-image: url('../img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     height: 23.4375rem;
     padding-top: 2.5rem;

@@ -7,7 +7,7 @@ export default {
 
 <template>
     <div class="top-footer-logo">
-        <img src="../../../img/dc-logo-bg.png" alt="DC Logo">
+
     </div>
 </template>
 
@@ -16,6 +16,9 @@ export default {
 @use '../../styles/general.scss' as *;
 
 .top-footer-logo {
-    width: 10rem;
+    background-image: url('../../../img/dc-logo-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 </style>
