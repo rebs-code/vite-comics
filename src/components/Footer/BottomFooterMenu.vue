@@ -53,4 +53,29 @@ export default {
 <style scoped lang="scss">
 @use '../../styles/partials/variables' as *;
 @use '../../styles/general.scss' as *;
+
+.bottom-footer-menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $brand-blue;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding-left: 1.25rem;
+    display: flex;
+    align-items: center;
+}
 </style>
