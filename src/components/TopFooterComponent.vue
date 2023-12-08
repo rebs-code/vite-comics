@@ -176,7 +176,7 @@ div>ul>li {
 }
 
 div>ul>li>h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     padding-bottom: 20px;
     text-transform: uppercase;
@@ -185,5 +185,6 @@ div>ul>li>h3 {
 div>ul>li>ul>li {
     padding-bottom: 10px;
     font-size: 13px;
+    padding-right: 30px;
 }
 </style>
