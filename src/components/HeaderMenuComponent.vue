@@ -47,8 +47,8 @@ ul {
 }
 
 li {
-    padding: 50px 2px;
-    margin-right: 30px;
+    padding: 3.125rem 0.125rem;
+    margin-right: 1.8rem;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
@@ -66,7 +66,7 @@ li {
         bottom: 0px;
         left: 0;
         width: 100%;
-        height: 5px;
+        height: 0.3rem;
         background-color: $brand-blue;
     }
 }

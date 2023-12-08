@@ -24,16 +24,12 @@ export default {
 </template>
 
 <style scoped>
-.header {
-    border: 1px solid black;
-}
-
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1270px;
+    max-width: 80rem;
     margin: 0 auto;
 }
 </style>

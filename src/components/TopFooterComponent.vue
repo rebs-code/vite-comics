@@ -129,7 +129,7 @@ export default {
                 </ul>
             </div>
             <div class="footer-logo">
-                <img src="../img/dc-logo-bg.png" alt="DC Logo">
+                <img src="/img/dc-logo-bg.png" alt="DC Logo">
             </div>
         </div>
     </div>
@@ -143,6 +143,7 @@ export default {
     background-image: url('../img/footer-bg.jpg');
     padding: 40px 0;
     color: white;
+    max-height: 23.15rem;
 
     a {
         text-decoration: none;
@@ -151,10 +152,12 @@ export default {
 }
 
 .top-footer-container {
-    max-width: 1270px;
+    max-width: 80rem;
+    max-height: 270px;
     margin: 0 auto;
     border: 1px solid white;
     display: flex;
+    justify-content: space-between;
 }
 
 ul {
@@ -167,24 +170,24 @@ div>ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 400px;
+    max-height: 270px;
 
 }
 
 div>ul>li {
-    padding-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 div>ul>li>h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     padding-bottom: 20px;
     text-transform: uppercase;
 }
 
 div>ul>li>ul>li {
-    padding-bottom: 10px;
-    font-size: 13px;
+    padding-bottom: 5px;
+    font-size: 12px;
     padding-right: 30px;
 }
 </style>

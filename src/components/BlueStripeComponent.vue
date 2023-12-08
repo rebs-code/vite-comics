@@ -38,16 +38,14 @@ export default {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    border-bottom: 1px solid $brand-blue;
 }
 
 .blue-stripe-container {
     width: 100%;
-    max-width: 1270px;
+    max-width: 80rem;
     margin: 0 auto;
-    padding: 50px 50px;
-    font-size: 12px;
+    padding: 3.125rem;
+    font-size: 0.75rem;
 }
 
 ul {
@@ -60,18 +58,18 @@ ul {
 }
 
 li {
-    padding: 0 5px;
+    padding: 0 0.3rem;
     display: flex;
     align-items: center;
 
     img {
-        max-height: 55px;
+        max-height: 3.4rem;
         width: auto;
-        margin-right: 15px;
+        margin-right: 0.93rem;
     }
 
     img[alt="power-visa"] {
-        max-height: 40px;
+        max-height: 2.5rem;
     }
 }
 </style>
