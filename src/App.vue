@@ -1,15 +1,16 @@
 <script>
-// @ts-ignore
 import HeaderComponent from './components/HeaderComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 import BlueStripeComponent from './components/BlueStripeComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
     MainComponent,
-    BlueStripeComponent
+    BlueStripeComponent,
+    FooterComponent
   }
 }
 </script>
@@ -19,6 +20,7 @@ export default {
     <HeaderComponent></HeaderComponent>
     <MainComponent></MainComponent>
     <BlueStripeComponent></BlueStripeComponent>
+    <FooterComponent></FooterComponent>
   </div>
 </template>
 
