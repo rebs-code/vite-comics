@@ -1,9 +1,9 @@
 <script>
-import BottomFooterLeft from './BottomFooterLeft.vue';
+import BottomFooterButton from './BottomFooterButton.vue';
 export default {
     name: 'BottomFooterComponent',
     components: {
-        BottomFooterLeft
+        BottomFooterButton
     }
 }
 </script>
@@ -11,7 +11,7 @@ export default {
 <template>
     <div class="bottom-footer">
         <div class="bottom-footer-container">
-            <BottomFooterLeft />
+            <BottomFooterButton />
         </div>
     </div>
 </template>
@@ -22,7 +22,7 @@ export default {
 
 .bottom-footer {
     background-color: $footer-bg;
-    padding: 2rem 0;
+    padding: 1.875rem 0;
 }
 
 .bottom-footer-container {
