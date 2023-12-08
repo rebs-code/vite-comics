@@ -32,8 +32,8 @@ export default {
 
 
 <style scoped lang="scss">
-@use '../styles/partials/variables' as *;
-@use '../styles/general.scss' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/general.scss' as *;
 
 ul {
     list-style: none;

@@ -1,8 +1,8 @@
 <script>
-import HeaderComponent from './components/HeaderComponent.vue';
+import HeaderComponent from './components/Header/HeaderComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 import BlueStripeComponent from './components/BlueStripeComponent.vue';
-import FooterComponent from './components/FooterComponent.vue';
+import FooterComponent from './components/Footer/FooterComponent.vue';
 
 export default {
   name: 'App',

@@ -1,5 +1,4 @@
 <script>
-// @ts-ignore
 import LogoComponent from './LogoComponent.vue';
 import HeaderMenuComponent from './HeaderMenuComponent.vue';
 

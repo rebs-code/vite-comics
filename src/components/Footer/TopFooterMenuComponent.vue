@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'TopFooterComponent',
+    name: 'TopFooterMenuComponent',
     data() {
         return {
             footerData: [
@@ -113,36 +113,29 @@ export default {
 </script>
 
 <template>
-    <div class="top-footer">
-        <div class="top-footer-container">
-            <div class="footer-menu">
+    <div class="footer-menu">
+        <ul>
+            <li v-for="item in footerData">
+                <h3>{{ item.title }}</h3>
                 <ul>
-                    <li v-for="item in footerData">
-                        <h3>{{ item.title }}</h3>
-                        <ul>
-                            <li v-for="link in item.links">
-                                <a :href="link.url">{{ link.name }}</a>
-                            </li>
-                        </ul>
+                    <li v-for="link in item.links">
+                        <a href="#">{{ link.name }}</a>
                     </li>
                 </ul>
-            </div>
-            <div class="footer-logo">
-                <img src="/img/dc-logo-bg.png" alt="DC Logo">
-            </div>
-        </div>
+            </li>
+        </ul>
     </div>
+    <!-- <div class="footer-logo">
+        <img src="/img/dc-logo-bg.png" alt="DC Logo">
+    </div> -->
 </template>
 
-<style scoped lang="scss">
-@use '../styles/partials/variables' as *;
-@use '../styles/general.scss' as *;
+<style lang="scss" scoped>
+@use '../../styles/partials/variables' as *;
+@use '../../styles/general.scss' as *;
 
-.top-footer {
-    background-image: url('../img/footer-bg.jpg');
-    color: white;
-    max-height: 23.4375rem;
-    padding: 2.5rem 0;
+ul {
+    list-style: none;
 
     a {
         text-decoration: none;
@@ -150,30 +143,15 @@ export default {
     }
 }
 
-.top-footer-container {
-    max-width: 80rem;
-    max-height: 270px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 div>ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 16.8rem;
-
+    max-height: 20rem;
 }
 
 div>ul>li {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 div>ul>li>h3 {
@@ -184,8 +162,8 @@ div>ul>li>h3 {
 }
 
 div>ul>li>ul>li {
-    padding-bottom: 0.3rem;
-    font-size: 0.7rem;
+    padding-bottom: .5rem;
+    font-size: 0.8rem;
     padding-right: 1.8rem;
 }
 </style>
