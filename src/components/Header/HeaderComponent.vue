@@ -15,7 +15,7 @@ export default {
 
 <template>
     <header class="header">
-        <div class="header-container">
+        <div class="header-container container-large">
             <LogoComponent></LogoComponent>
             <HeaderMenuComponent></HeaderMenuComponent>
         </div>
@@ -28,7 +28,5 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
 }
 </style>

@@ -13,7 +13,7 @@ export default {
 
 <template>
     <div class="top-footer">
-        <div class="top-footer-container">
+        <div class="top-footer-container container-large">
             <TopFooterMenuComponent />
             <TopFooterLogo />
         </div>
@@ -34,8 +34,6 @@ export default {
 }
 
 .top-footer-container {
-    max-width: 1280px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     position: relative;

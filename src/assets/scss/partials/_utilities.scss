@@ -1,13 +1,12 @@
-$icons: (
-  "eye": "\f112",
-  "start": "\f12e",
-  "stop": "\f12f",
+$container: (
+  "small": 600px,
+  "medium": 900px,
+  "large": 1280px,
 );
 
-@each $name, $glyph in $icons {
-  .icon-#{$name}:before {
-    display: inline-block;
-    font-family: "Icon Font";
-    content: $glyph;
+@each $breakpoint, $width in $container {
+  .container-#{$breakpoint} {
+    max-width: $width;
+    margin: 0 auto;
   }
 }

@@ -12,7 +12,7 @@ export default {
 
 <template>
     <div class="bottom-footer">
-        <div class="bottom-footer-container">
+        <div class="bottom-footer-container container-large">
             <BottomFooterButton />
             <BottomFooterMenu />
         </div>
@@ -28,8 +28,6 @@ export default {
 }
 
 .bottom-footer-container {
-    max-width: 1280px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -18,7 +18,7 @@ export default {
 
 <template>
     <div class="blue-stripe">
-        <div class="blue-stripe-container">
+        <div class="blue-stripe-container container-large">
             <ul>
                 <li v-for="item in items">
                     <img :src="`/img/${item.icon}`" :alt="item.name">
@@ -41,8 +41,6 @@ export default {
 
 .blue-stripe-container {
     width: 100%;
-    max-width: 80rem;
-    margin: 0 auto;
     padding: 3.125rem;
     font-size: 0.75rem;
 }
