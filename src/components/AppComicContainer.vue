@@ -89,15 +89,19 @@ export default {
 </script>
 
 <template>
-    <div class="title-label">
-        <h3>Current Series</h3>
-    </div>
     <div class="main-container">
-        <div class="container-large comics-container">
-            <ComicComponent v-for="comic in comics" :thumb="comic.thumb" :series="comic.series">
-            </ComicComponent>
+        <div class="container-large">
+            <div class="title-label">
+                <h3>Current Series</h3>
+            </div>
         </div>
-        <button>Load More</button>
+        <div class="bottom-container">
+            <div class="container-large comics-container">
+                <ComicComponent v-for="comic in comics" :thumb="comic.thumb" :series="comic.series">
+                </ComicComponent>
+            </div>
+            <button>Load More</button>
+        </div>
     </div>
 </template>
 
@@ -105,6 +109,10 @@ export default {
 @use "../assets/scss/partials/variables" as *;
 
 .main-container {
+    position: relative;
+}
+
+.bottom-container {
     background-color: $black;
     padding-top: 50px;
     display: flex;
@@ -152,13 +160,17 @@ export default {
 
 .title-label {
     max-width: 250px;
+    height: 50px;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.1rem;
     background-color: $brand-blue;
     color: white;
     border: none;
     padding: 10px 30px;
     text-align: center;
+
+    position: absolute;
+    top: -25px;
 }
 </style>
