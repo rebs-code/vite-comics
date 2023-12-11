@@ -1,6 +1,6 @@
 <script>
 import HeaderComponent from './components/Header/HeaderComponent.vue';
-import MainComponent from './components/AppMainComponent.vue';
+import AppComicContainer from './components/AppComicContainer.vue';
 import BlueStripeComponent from './components/BlueStripeComponent.vue';
 import FooterComponent from './components/Footer/FooterComponent.vue';
 import AppJumboComponent from './components/AppJumboComponent.vue';
@@ -9,7 +9,7 @@ export default {
   name: 'App',
   components: {
     HeaderComponent,
-    MainComponent,
+    AppComicContainer,
     BlueStripeComponent,
     FooterComponent,
     AppJumboComponent
@@ -21,7 +21,7 @@ export default {
   <div id="app">
     <HeaderComponent></HeaderComponent>
     <AppJumboComponent></AppJumboComponent>
-    <MainComponent></MainComponent>
+    <AppComicContainer></AppComicContainer>
     <BlueStripeComponent></BlueStripeComponent>
     <FooterComponent></FooterComponent>
   </div>

@@ -1,11 +1,19 @@
 <script>
 export default {
     name: 'ComicComponent',
-    props: [],
+    props: {
+        thumb: String,
+        series: String,
+    },
 }
 
 </script>
 
-<template></template>
+<template>
+    <div>
+        <img :src="thumb" :alt="series">
+        <h3>{{ series }}</h3>
+    </div>
+</template>
 
 <style scoped lang="scss"></style>
