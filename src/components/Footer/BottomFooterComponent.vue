@@ -28,7 +28,7 @@ export default {
 }
 
 .bottom-footer-container {
-    max-width: 80rem;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
