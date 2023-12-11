@@ -1,6 +1,10 @@
 <script>
+import ComicComponent from './ComicComponent.vue';
 export default {
     name: 'AppMainComponent',
+    components: {
+        ComicComponent
+    },
     data() {
         return {
             comics: [
@@ -88,14 +92,10 @@ export default {
     <div>
         <div class="container-large">
 
+            <ComicComponent v-for="comic in comics" :comic="comic"></ComicComponent>
+
         </div>
     </div>
 </template>
 
-<style scoped>
-main {
-    background-color: black;
-    color: white;
-    padding: 50px;
-}
-</style>
+<style scoped></style>
