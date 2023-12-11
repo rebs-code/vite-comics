@@ -1,6 +1,6 @@
 <script>
 import HeaderComponent from './components/Header/HeaderComponent.vue';
-import MainComponent from './components/MainComponent.vue';
+import MainComponent from './components/AppMainComponent.vue';
 import BlueStripeComponent from './components/BlueStripeComponent.vue';
 import FooterComponent from './components/Footer/FooterComponent.vue';
 
@@ -10,7 +10,7 @@ export default {
     HeaderComponent,
     MainComponent,
     BlueStripeComponent,
-    FooterComponent
+    FooterComponent,
   }
 }
 </script>

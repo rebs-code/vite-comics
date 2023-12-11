@@ -1,7 +1,6 @@
 <script>
 export default {
-    name: 'MainComponent',
-
+    name: 'AppMainComponent',
 }
 </script>
 
