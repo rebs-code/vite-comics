@@ -21,14 +21,16 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@import '../../assets/scss/partials/mixins';
+
 .top-footer {
-    background-image: url('../img/footer-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include bgImage('../img/footer-bg.jpg', 'center', 'no-repeat');
     color: white;
     height: 23.4375rem;
     padding-top: 2.5rem;
     overflow: hidden;
+
+
 }
 
 .top-footer-container {
