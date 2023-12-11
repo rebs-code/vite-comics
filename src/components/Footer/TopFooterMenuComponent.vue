@@ -156,12 +156,12 @@ div>ul>li {
 div>ul>li>h3 {
     font-size: 1.1rem;
     font-weight: bold;
-    padding-bottom: 1rem;
+    padding-bottom: 0.7rem;
     text-transform: uppercase;
 }
 
 div>ul>li>ul>li {
-    padding-bottom: .5rem;
+    padding-bottom: .4rem;
     font-size: 0.8rem;
     padding-right: 1.8rem;
 }

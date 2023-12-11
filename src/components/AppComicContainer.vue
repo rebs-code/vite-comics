@@ -90,7 +90,7 @@ export default {
 
 <template>
     <div class="main-container">
-        <div class="container-large">
+        <div class="container-large relative">
             <div class="title-label">
                 <h3>Current Series</h3>
             </div>
