@@ -1,0 +1,11 @@
+@mixin bgImage($img: "", $position: "", $repeat: "") {
+  @if $img != "" {
+    background-image: url($img);
+  }
+  @if $repeat != "" {
+    background-repeat: $repeat;
+  }
+  @if $position != "" {
+    background-position: $position;
+  }
+}
