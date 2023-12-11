@@ -131,8 +131,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../../styles/partials/variables' as *;
-@use '../../styles/general.scss' as *;
+@use '../../assets/scss/partials/variables' as *;
 
 ul {
     list-style: none;

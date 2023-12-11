@@ -30,8 +30,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../styles/partials/variables' as *;
-@use '../styles/general.scss' as *;
+@use '../assets/scss/partials/variables' as *;
+
 
 .blue-stripe {
     background-color: $brand-blue;

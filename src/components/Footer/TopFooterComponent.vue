@@ -21,9 +21,6 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../../styles/partials/variables' as *;
-@use '../../styles/general.scss' as *;
-
 .top-footer {
     background-image: url('../img/footer-bg.jpg');
     background-repeat: no-repeat;

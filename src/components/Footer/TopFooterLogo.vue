@@ -12,9 +12,6 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../../styles/partials/variables' as *;
-@use '../../styles/general.scss' as *;
-
 .top-footer-logo {
     position: absolute;
     top: -45%;
