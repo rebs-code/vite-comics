@@ -125,13 +125,14 @@ export default {
             </li>
         </ul>
     </div>
-    <!-- <div class="footer-logo">
-        <img src="/img/dc-logo-bg.png" alt="DC Logo">
-    </div> -->
 </template>
 
 <style lang="scss" scoped>
 @use '../../assets/scss/partials/variables' as *;
+
+.footer-menu {
+    padding-top: 40px;
+}
 
 ul {
     list-style: none;
