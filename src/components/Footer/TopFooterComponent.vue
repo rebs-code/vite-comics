@@ -1,12 +1,10 @@
 <script>
 import TopFooterMenuComponent from './TopFooterMenuComponent.vue';
-import TopFooterLogo from './TopFooterLogo.vue';
 export default {
     name: 'TopFooterComponent',
 
     components: {
         TopFooterMenuComponent,
-        TopFooterLogo
     }
 }
 </script>
